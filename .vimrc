@@ -2,20 +2,21 @@ filetype plugin on
 set showcmd
 "cautocmd BufReadPost * call plug#begin('~/.vim/plugged')
 call plug#begin('~/.vim/plugged')
-Plug 'itchyny/lightline.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+""Plug 'itchyny/lightline.vim'
+""Plug 'scrooloose/nerdtree'
+""Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+""Plug 'junegunn/fzf.vim'
 ""Plug 'https://github.com/pangloss/vim-javascript'
-Plug 'https://github.com/tpope/vim-surround'
-Plug 'https://github.com/mxw/vim-jsx'
-Plug 'https://github.com/rafi/awesome-vim-colorschemes'
-Plug 'https://github.com/rakr/vim-one'
+""Plug 'https://github.com/tpope/vim-surround'
+""Plug 'https://github.com/mxw/vim-jsx'
+""Plug 'https://github.com/rafi/awesome-vim-colorschemes'
+""Plug 'https://github.com/rakr/vim-one'
 "autocmd vimenter * NERDTree
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 ";"colorscheme onedark
-set background=dark
+call plug#end()
+""set background=dark
 ab co console.log(
 
 "for whitsepace
@@ -30,13 +31,14 @@ syntax on
 
 ""inoremap jj <Esc>/<++><Enter>"_c4l
 inoremap jj <Esc>
-nnoremap <F2> <Esc>:NERDTreeToggle<Enter>
-nnoremap <F3> <Esc>:vsplit<Enter>
-nnoremap <F4> <Esc>:split<Enter>
-nnoremap <F5> <Esc>:FZF<Enter>
-nnoremap <F11> <Esc>:vsplit $MYVIMRC<Enter>
+""nnoremap <F2> <Esc>:NERDTreeToggle<Enter>
+""nnoremap <F3> <Esc>:vsplit<Enter>
+""nnoremap <F4> <Esc>:split<Enter>
+""nnoremap <F5> <Esc>:FZF<Enter>
+""nnoremap <F11> <Esc>:vsplit $MYVIMRC<Enter>
+nnoremap <F2> <Esc>:set nolist<Esc>
+nnoremap <F3> <Esc>:set list<Esc>
 
-set list
 "set listchars=tab:>-
 ""<++>inoremap ( ()<++><Esc>F)i
 ""<++>inoremap { {}<++><Esc>F}i
@@ -82,4 +84,3 @@ set expandtab
 ""autocmd BufEnter * colorscheme onedark
 ""autocmd BufEnter * colorscheme apprentice
 
-call plug#end()

@@ -1,0 +1,7 @@
+set show_hidden true
+map wr cd ~/projects/react-Ling/src/components
+map wl cd ~/projects/Ling-Academy-Api/app
+map cr cd ~/.config/ranger
+map cc cd ~/.config
+map oo cd ~/
+map nt :terminal

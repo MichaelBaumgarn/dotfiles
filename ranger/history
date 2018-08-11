@@ -1,0 +1,21 @@
+Q
+shell ./import.sh
+shell npm install 
+shell sudo npm install
+delete .config.swp
+open_with 
+delete config
+rename config
+search 
+search data
+mkdir .xprofile
+delte .xprofile
+delete .xprofile/
+shell vim .xprofile
+rename ranger1
+rename ranger
+search x
+rename ranger2
+terminal
+rename rc.conf__
+rename rc.conf
