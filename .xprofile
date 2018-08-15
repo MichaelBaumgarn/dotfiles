@@ -1,0 +1,4 @@
+
+setxkbmap -option caps:escape
+VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
+
