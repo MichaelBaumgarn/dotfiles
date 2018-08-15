@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/mike/.config/ranger'
+let g:netrw_dirhist_2='/home/mike/projects/react-Ling/src/components'
+let g:netrw_dirhist_3='/home/mike/projects/react-Ling/src'
+let g:netrw_dirhist_4='/home/mike/projects/react-Ling'
+let g:netrw_dirhist_5='/home/mike/projects/react-Ling/public'
